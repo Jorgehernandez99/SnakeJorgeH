@@ -12,3 +12,23 @@ body {
     visibility: hidden;
 }
 
+h1, h3 {
+    font-family: 'Aldrich', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.title {
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+#restartButton {
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+#restartButton:hover {
+    background-color: gold;
+}
+
