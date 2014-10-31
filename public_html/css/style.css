@@ -7,13 +7,13 @@ body {
     display: block;
 }
 
-#gameOver {
+#gameOver, #playHUD, #start {
     position: fixed;
     visibility: hidden;
 }
 
-h1, h3 {
-    font-family: 'Aldrich', sans-serif;
+h1, h2, h3 {
+    font-family: "Aldrich", sans-serif;
     color: black;
     text-align: center;
 }
@@ -21,14 +21,22 @@ h1, h3 {
 .title {
     font-size: 100px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-#restartButton {
-    border: 2px solid yellow;
+#restartButton, #startButton {
+    font-size: 50px;
+    border: 2px solid gold;
     border-radius: 10px;
 }
 
-#restartButton:hover {
+#restartButton:hover, #startButton:hover {
     background-color: gold;
+}
+
+#scoreboard {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
